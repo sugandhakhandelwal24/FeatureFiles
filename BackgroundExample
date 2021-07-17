@@ -1,0 +1,12 @@
+Feature: Home Screen feature
+
+Background: Given User is on the Simplilearn application
+When User enters correct username "<UserName>"
+And User enters correct password "<Password>"
+And User clicks on the login button
+
+Scenario: Verify that user is able to see the product details
+
+Given user has landed on the home screen
+When when user do something
+Then they should be able to see something
