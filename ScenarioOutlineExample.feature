@@ -1,7 +1,8 @@
-Feature: Login feature
+﻿Feature: Login feature
 Description: This feature will be used to login the Simplilearn Application
 
-Scenario: Verify that when user enters correct username and password they should be able to login successfully
+@PositiveTest @Sanity
+Scenario Outline: Verify that when user enters correct username and password they should be able to login successfully
 
 Given User is on the Simplilearn application
 When User enters correct username "<UserName>"
